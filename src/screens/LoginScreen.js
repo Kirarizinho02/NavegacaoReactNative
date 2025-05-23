@@ -8,12 +8,12 @@ export default function LoginScreen ({ navigation }) {
     const [senha, setSenha] = useState("");
 
     const verificarLogin = () => {
-        if (email == 'Rafael' && senha == '123') {
+        if (email == 'emailteste@email.com' && senha == '123') {
             alert('Login realizado com sucesso');
             navigation.navigate('Home');
         } else if (email == '' && senha == '') {
             alert('Erro: Preencha todos os campos');
-        } else if (email != 'Rafael' || senha != '123') {
+        } else if (email != 'emailteste@email.com' || senha != '123') {
             alert('Erro: Usuário ou senha inválidos');
         }
     }
