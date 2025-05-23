@@ -7,6 +7,7 @@ export default function DetailsScreen ({ navigation }) {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Detalhes</Text>
+            <Text>Essa é a tela de detalhes :)</Text>
             <View style={styles.buttonContainer}>
                 <Button
                     title="Perfil"
@@ -28,11 +29,12 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#faf0e6",
+        backgroundColor: "#EBE755",
     },
     title: {
+        fontWeight: "bold",
         fontSize: 24,
-        marginBottom: 20,
+        marginBottom: 10,
     },
     buttonContainer: {
         borderRadius: 5,    

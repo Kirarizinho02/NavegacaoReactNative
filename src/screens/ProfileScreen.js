@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Button, StyleSheet, Dimensions } from "react-native";
+import { View, Text, Button, StyleSheet, Dimensions, Image } from "react-native";
 
 const windowWidth = Dimensions.get("window").width;
 
@@ -7,6 +7,7 @@ export default function ProfileScreen  ({ navigation }) {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Perfil</Text>
+            <Text>Nome: Rafael Cruz</Text>
             <View style={styles.buttonContainer}>
                 <Button
                     title="Detalhes"
@@ -28,11 +29,12 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#e6e6fa",
+        backgroundColor: "#BEC0A0",
     },
     title: {
+        fontWeight: "bold",
         fontSize: 24,
-        marginBottom: 20,
+        marginBottom: 10,
     },
     buttonContainer: {
         borderRadius: 5,    

@@ -7,6 +7,7 @@ export default function HomeScreen ({ navigation }) {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Home</Text>
+            <Text>Bem-vindo ao aplicativo!</Text>
             <View style={styles.buttonContainer}>
                 <Button
                     title="Perfil"
@@ -28,11 +29,12 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#f0f8ff",
+        backgroundColor: "#e8eabc",
     },
     title: {
         fontSize: 24,
-        marginBottom: 20,
+        fontWeight: "bold",
+        marginBottom: 10,
     },
     buttonContainer: {
         borderRadius: 5,    
