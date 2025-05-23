@@ -1,4 +1,4 @@
-# ListaDeTarefas
+# Navegação React Native
 Atividade da disciplina Programação de Aplicativos Mobile II, envolvendo os conceitos de React Native para uma navegação entre páginas.
 
 ## Clonando ou baixando o projeto
